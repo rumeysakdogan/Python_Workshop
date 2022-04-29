@@ -11,7 +11,7 @@ def second():
 
 @app.route("/third/subthird")
 def third():
-    return "<h2>This is my third page!</h2>"
+    return "<h2>This is the subpage of my third page!</h2>"
 
 if __name__ == "__main__":
     app.run(debug=True)
