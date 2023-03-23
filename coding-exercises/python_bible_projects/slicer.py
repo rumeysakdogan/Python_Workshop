@@ -8,12 +8,12 @@ user = email[:email.index("@")]
 
 # slice domain name
 
-domain = email[email.index("@") + 1 :]
+domain = email[email.index("@") + 1:]
 
 # format message
 
 output = "Your username is {} and your domain name is {}".format(user, domain)
 
-# display output message 
+# display output message
 
 print(output)
